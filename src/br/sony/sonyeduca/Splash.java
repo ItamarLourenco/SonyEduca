@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 
 public class Splash extends ActionBarActivity implements Runnable{
-	final public int MILISEGUNDOS = 30;
+	final public int MILISEGUNDOS = 3000;
 	
 	@SuppressLint("NewApi")
 	@Override
