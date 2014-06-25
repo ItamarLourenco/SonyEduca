@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="#444444"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/busca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:src="@drawable/search" />
+
+    <EditText
+        android:id="@+id/busca_text"
+        android:layout_width="0dip"
+        android:layout_height="25dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="12dip"
+        android:layout_weight="1"
+        android:background="#D6D6D6"
+        android:ems="10"
+        android:textSize="12sp" >
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="13dip"
+        android:src="@drawable/busca_ok" />
+
+</LinearLayout>

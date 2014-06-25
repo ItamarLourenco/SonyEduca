@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.sony.sonyeduca"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <uses-permission android:name="android.permission.BILLING"/>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="br.sony.sonyeduca.Splash"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.sony.sonyeduca.Home"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="br.sony.sonyeduca.fragments.VideoFragment"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_video_fragment" >
+        </activity>
+        <activity
+            android:name="br.sony.sonyeduca.Video"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_video_fragment" >
+        </activity>
+        
+        
+    </application>
+
+</manifest>

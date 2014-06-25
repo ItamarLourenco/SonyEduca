@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="65dip"
+	    android:background="#555555"
+	    android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_margin="10dip"
+		    android:background="#555555" >
+
+			<ImageView
+			    android:id="@+id/home"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:src="@drawable/home_" />
+
+			<ImageView
+			    android:id="@+id/cadastro_menu"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:src="@drawable/cadastro" />
+
+			<ImageView
+			    android:id="@+id/carro"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:src="@drawable/car" />
+
+			<ImageView
+			    android:id="@+id/contato_menu"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:src="@drawable/contato" />
+
+		</LinearLayout>
+
+	</LinearLayout>

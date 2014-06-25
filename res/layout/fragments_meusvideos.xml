@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#767676"
+    android:orientation="vertical" >
+
+    <GridView
+	    android:id="@+id/gridView"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:numColumns="2" >
+	</GridView>
+    
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_sem_meus_videos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:text="VOCÊ AINDA NÃO POSSUI NENHUM VÍDEO \n CLIQUE AQUI"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+</LinearLayout>

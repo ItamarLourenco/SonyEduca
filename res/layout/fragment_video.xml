@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444444"
+    android:orientation="vertical" >	    
+
+	<ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:background="#7C7C7C" >
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    
+	    android:background="#7C7C7C"
+	    android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:background="#7C7C7C"
+	        android:baselineAligned="false"
+	        android:orientation="horizontal" >
+
+	        <LinearLayout
+	            android:layout_width="156dp"
+	            android:layout_height="160dp"
+	            android:layout_marginRight="2dip"
+	            android:background="#767676"
+	            android:orientation="vertical" >
+
+	            <ImageView
+		            android:id="@+id/image"
+		            android:layout_width="140dp"
+		            android:layout_height="109dp"
+		            android:layout_margin="5dip"
+		            android:background="#767676"
+		            android:scaleType="fitCenter" />
+
+	            <TextView
+	                android:id="@+id/aula_nome"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="center"
+	                android:textColor="#FFF" />
+
+	            <TextView
+	                android:id="@+id/aula_posicao"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="2dip"
+	                android:gravity="center"
+	                android:textColor="#FF5400"
+	                android:textSize="10dip" />
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:id="@+id/pay"
+	            android:layout_width="0dip"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="2dip"
+	            android:layout_weight="1"
+	            android:visibility="gone"
+	            android:background="#767676"
+	            android:gravity="center" >
+
+	            <ImageView
+	                android:id="@+id/imageView1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center"
+	                android:layout_marginLeft="20dip"
+	                android:src="@drawable/add_car" />
+
+	            <TextView
+	                android:id="@+id/valor"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="left|center"
+	                android:layout_marginLeft="5dip"
+	                android:gravity="center_vertical|center_horizontal"
+	                android:textColor="#FFFFFF"
+	                android:textSize="18sp" />
+
+	        </LinearLayout>
+	        
+	        
+	        <LinearLayout
+	            android:id="@+id/pay_loader"
+	            android:layout_width="0dip"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="2dip"
+	            android:layout_weight="1"
+	            android:background="#767676"
+	            android:gravity="center" >
+
+	            <ProgressBar
+	                android:id="@+id/progressBar1"
+	                style="?android:attr/progressBarStyleLarge"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" />
+
+	        </LinearLayout>
+	        
+	        
+	         <LinearLayout
+	            android:id="@+id/pay_assistir"
+	            android:layout_width="0dip"
+	            android:visibility="gone"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="2dip"
+	            android:layout_weight="1"
+	            android:background="#767676"
+	            android:gravity="center" >
+
+	             <TextView
+	                 android:id="@+id/textView1"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="Assitir!"
+	                 android:textColor="#FF5400"
+					 android:textSize="30sp" />
+
+	        </LinearLayout>
+	        
+	    </LinearLayout>
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:background="#767676"
+	        android:gravity="center"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/descricao"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_margin="5dip"
+	            android:text=""
+	            android:textColor="#FFFFFF" />
+
+	    </LinearLayout>
+
+	</LinearLayout>
+</ScrollView>
+	
+</LinearLayout>
